@@ -9,5 +9,5 @@ i: int = 0
 if REPEAT <= i: 
     print("No beat...")
 while REPEAT > i:
-    print(str(beat + " ") * REPEAT)
+    print((str(beat + " ") * (REPEAT - 1)) + str(beat))
     REPEAT = REPEAT * 0
